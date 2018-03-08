@@ -1,0 +1,36 @@
+{
+  "name": "MERN",
+  "version": "1.0.0",
+  "description": "sample",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "node ./server/server.js",
+    "bundle": "node ./node_modules/webpack/bin/webpack",
+    "dev": "node ./node_modules/lite-server/bin/lite-server",
+    "createdb": "node ./server/dbseed.js",
+    "start": "npm run bundle & npm run dev"
+  },
+  "keywords": [
+    "sample"
+  ],
+  "author": "Ramdhas",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.2",
+    "mockgoose": "^6.0.3",
+    "body-parser": "^1.18.2",
+    "mongoose": "^4.13.6",
+    "socket.io": "^2.0.4",
+    "@syncfusion/ej2-react-grids": "^15.4.29",
+    "webpack": "^3.10.0"
+  },
+  "devDependencies": {
+    "lite-server": "^2.2.2",
+    "babel-cli": "^6.6.5",
+    "babel-core": "^6.17.0",
+    "babel-loader": "^6.2.1",
+    "babel-preset-es2015": "^6.16.0",
+    "babel-preset-react": "^6.3.13"
+  }
+}
