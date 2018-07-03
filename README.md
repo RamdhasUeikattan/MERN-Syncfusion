@@ -8,6 +8,6 @@ Syncfusion Essential JS2 Grid used to visualize the records in sample and we hav
 1.	Install [mango DB](https://docs.mongodb.com/manual/installation/) in your system. 
 2.	Use `npm install` command install the dependency packages.
 3.	Run mango DB server files.
-4.	Use `npm run` createdb command to initialize the data collection.
-5.	Use `npm run` server to start the server connections.
+4.	Use `npm run createdb` command to initialize the data collection.
+5.	Use `npm run server` to start the server connections.
 6.	Use `npm start` command to start the application.
